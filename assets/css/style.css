@@ -124,11 +124,68 @@ img {
   align-items: center;
 }
 
+@media screen and (max-width: 968px) {
+  .nav__menu {
+    position: fixed;
+    /* bottom: var(--header-height); */
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    padding: 2rem 1.5rem;
+    background-color: var(--body-color);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 1rem 1rem 0 0;
+    z-index: var(--z-fixed);
+    transition: 0.3s;
+  }
+}
+
+.nav__logo,
+.nav__toggler {
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+.nav__toggler {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav__item {
+  text-align: center;
+}
+.nav__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.nav__link {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+  font-weight: var(--font-medium);
+}
+
+.nav__link:hover {
+  color: var(--title-color);
+}
+
+.nav_icon {
+  font-size: 1.2rem;
+  margin-bottom: var(--mb-1);
+}
 /* Show menu */
+.show-menu {
+  bottom: var(--header-height);
+}
 
 /* Change background header */
 
 /* Active link */
+.active-link {
+  color: var(--title-color);
+}
 
 /*=============== LAYOUT ===============*/
 .bd-container {
