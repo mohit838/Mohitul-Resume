@@ -1,6 +1,12 @@
 ## Mohitul Islam Resume Template Using HTML, CSS and Js
 
-<!-- <img src="#" alt="mohit_resume"> -->
+## Dark Resume
+
+<img src="assets/img/12.png" alt="mohit_resume">
+
+## Light Resume
+
+<img src="assets/img/13.png" alt="mohit_resume">
 
 ## Credit
 
