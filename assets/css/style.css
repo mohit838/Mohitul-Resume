@@ -328,8 +328,9 @@ img {
 .bd-container {
   max-width: 968px;
   width: calc(100% - 3rem);
-  margin-left: var(--mb-3);
-  margin-right: var(--mb-3);
+  /* margin-left: var(--mb-3);
+  margin-right: var(--mb-3); */
+  margin: 0 auto;
 }
 
 .bd-grid {
@@ -487,6 +488,16 @@ img {
 
 .education__year {
   font-size: var(--small-font-size);
+}
+
+/* Projects Link and Demo Link  */
+.project__link {
+  margin-right: 10px;
+  text-decoration: underline;
+}
+.project__link2 {
+  margin-left: 10px;
+  text-decoration: underline;
 }
 
 /* skills and languages*/
